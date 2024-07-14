@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Video Background</title>
+</head>
+<body>
+    <header>
+        <video class="video-container relative opacity-75" muted autoplay loop>
+            <source src="video/140111-774507949.mp4" type="video/mp4"/>
+        </video>
+
+        <button class="buttons border-2 border-black bg-white h-[50px] w-[105px] rounded-xl space-x-2  absolute bottom-32 left-[45%]">
+            <span>
+                Play
+            </span>
+            <span>
+                Pause
+            </span>
+            <span class="switch bg-black h-full absolute left-[-8px] w-[50px] rounded-md top-0"></span>
+        </button>
+    </header>
+<script src="server.js"></script>
+</body>
+</html>
